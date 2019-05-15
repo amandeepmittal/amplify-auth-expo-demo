@@ -1,16 +1,12 @@
 import React from "react"
 import { StyleSheet, Text, View } from "react-native"
-
-// --- This is the part to add
-
 import Amplify from "aws-amplify"
 import config from "./aws-exports"
+import { withAuthenticator } from "aws-amplify-react-native"
 
 Amplify.configure(config)
 
-// ---
-
-export default class App extends React.Component {
+class App extends React.Component {
 	render() {
 		return (
 			<View style={styles.container}>
@@ -28,3 +24,5 @@ const styles = StyleSheet.create({
 		justifyContent: "center"
 	}
 })
+
+export default withAuthenticator(App, true)

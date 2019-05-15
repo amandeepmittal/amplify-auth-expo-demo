@@ -9,6 +9,11 @@
             "UnauthRoleName": "customauthui-dev-20190515161559-unauthRole",
             "StackName": "customauthui-dev-20190515161559",
             "StackId": "arn:aws:cloudformation:us-east-2:427428871420:stack/customauthui-dev-20190515161559/a1957c50-76fe-11e9-97dd-0a5f3eca4dfa"
+        },
+        "categories": {
+            "auth": {
+                "cognito3df79fa2": {}
+            }
         }
     }
 }
