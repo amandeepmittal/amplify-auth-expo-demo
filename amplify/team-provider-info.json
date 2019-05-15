@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "customauthui-dev-20190515161559-authRole",
+            "UnauthRoleArn": "arn:aws:iam::427428871420:role/customauthui-dev-20190515161559-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::427428871420:role/customauthui-dev-20190515161559-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "customauthui-dev-20190515161559-deployment",
+            "UnauthRoleName": "customauthui-dev-20190515161559-unauthRole",
+            "StackName": "customauthui-dev-20190515161559",
+            "StackId": "arn:aws:cloudformation:us-east-2:427428871420:stack/customauthui-dev-20190515161559/a1957c50-76fe-11e9-97dd-0a5f3eca4dfa"
+        }
+    }
+}
